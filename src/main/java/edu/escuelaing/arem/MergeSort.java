@@ -25,7 +25,7 @@ public class MergeSort {
     }
 
     private static ArrayList<Integer> merge1(ArrayList<Integer> lista) {
-        int mitad = lista.size() / 2;
+        int mitad = lista.size()/2;
         ArrayList<Integer> izq = new ArrayList<>();
         ArrayList<Integer> der = new ArrayList<>();
         if (lista.size() > 1) {
